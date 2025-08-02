@@ -2,50 +2,47 @@
 
 # AI Learning Dashboard 📊
 
-This project contains an interactive Power BI dashboard that tracks and visualizes learner progress in AI-related courses, modules, and assessments.
+This repository contains a Power BI project that visualizes learner progress in AI-related courses. It includes a sample dataset and pre-built visuals to help trainers, educators, and teams monitor AI learning engagement and performance.
 
 ## 📁 Project Structure
 
-- `/data`: Contains the raw dataset used to build the dashboard (`ai_learning_data.xlsx`)
-- `/reports`: Contains the Power BI report file (`AI_Learning_Dashboard.pbix`)
-- `/assets`: (Optional) Contains screenshots or images of the dashboard visuals
-- `README.md`: Project documentation
-- `LICENSE`: Licensing information
+## 📊 Dashboard Features
 
-## 💡 Purpose
+The dashboard provides key insights including:
 
-The **AI Learning Dashboard** helps educators, trainers, and administrators:
-- Monitor progress of students or employees learning AI concepts
-- Track time spent on each module
-- Visualize assessment scores and completion rates
-- Identify top-performing and at-risk learners
+- **Bar Chart**: Total hours spent by each learner
+- **Pie Chart**: Overall completion status distribution
+- **Performance Table**: Course-wise progress, modules completed, and average score
 
-## 🚀 Features
+![Dashboard Visuals](assets/screenshots/AI_Learning_Dashboard_Visuals.png)
 
-- **Bar Chart**: Module-wise learning hours
-- **Line Chart**: Weekly engagement trends
-- **Pie Chart**: Completion status distribution
-- **Table View**: Individual learner performance and scores
-- **KPIs**: Total learners, completion rate, average score
+---
 
-## 🛠️ How to Use
+## 🚀 How to Use
 
-1. Install [Power BI Desktop](https://powerbi.microsoft.com/desktop/)
-2. Open the `AI_Learning_Dashboard.pbix` file in `/reports`
-3. Ensure the `ai_learning_data.xlsx` file is in the `/data` folder
-4. Refresh the data or reconnect if prompted
+1. Clone or download the repository
+2. Open `ai_learning_data.xlsx` to view or modify the learner data
+3. (Optional) Open `AI_Learning_Dashboard.pbix` in [Power BI Desktop](https://powerbi.microsoft.com/desktop/) to explore or customize the dashboard
+4. Use the visuals for reporting, analysis, or presentations
+
+---
+
+## 📌 Notes
+
+- Data is for sample/demo purposes.
+- Power BI `.pbix` file is optional if you want to build or customize a report based on this dataset.
+
+---
 
 ## 🧾 License
 
-This project is open-source under the [MIT License](LICENSE). Feel free to use, modify, and share it.
+This project is licensed for educational and demo purposes. Contact the author if you'd like to use it for commercial training platforms or organizations.
 
-## 📸 Preview
-
-![Dashboard Preview](assets/screenshots/ai-dashboard-preview.png)
+---
 
 ## 🤝 Contributing
 
-Pull requests and suggestions are welcome. For major changes, open an issue first to discuss what you’d like to change.
+Feel free to submit issues, suggestions, or feature requests. Contributions are welcome!
 
----
+
 
